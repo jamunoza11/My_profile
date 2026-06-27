@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p1",
+    "title": "AgendaFlow Lite",
+    "category": "React",
+    "level": "Académico",
+    "description": "Aplicación para gestionar citas con componentes, estado y consumo de API simulada.",
+    "technologies": ["React", "Vite", "CSS", "JSON Server"],
+    "repositoryUrl": "https://github.com/joseadrian/agendaflow-lite",
+    "demoUrl": "#"
+  },
+  {
+    "id": "p2",
+    "title": "E-Commerce CyberNeon",
+    "category": "Fullstack",
+    "level": "Personal",
+    "description": "Tienda en línea con estética cyberpunk utilizando Django en el backend y JavaScript en el frontend.",
+    "technologies": ["Django", "Python", "JavaScript", "MySQL"],
+    "repositoryUrl": "https://github.com/joseadrian/cyberneon-shop",
+    "demoUrl": "#"
+  },
+  {
+    "id": "p3",
+    "title": "API REST TaskManager",
+    "category": "Backend",
+    "level": "Académico",
+    "description": "Servicio robusto para la gestión de tareas de equipos con autenticación JWT y persistencia relacional.",
+    "technologies": ["Node.js", "TypeScript", "SQL", "Git"],
+    "repositoryUrl": "https://github.com/joseadrian/task-manager-api",
+    "demoUrl": "#"
+  }
+]
