@@ -1,6 +1,6 @@
 
 
-La presente es pagina web desarrollada pra mostrar informacion profecional.Accesibilidad básica, 
+La presente es una pagina web desarrollada pra mostrar informacion profecional.Accesibilidad básica, 
 cuyo objetivo es desarrollar un **Portafolio Profesional Web** utilizando React y Vite, aplicando los conceptos fundamentales del framework como componentes, props, estado, renderizado dinámico, consumo de datos y formularios controlados.
 
 La aplicación presenta información profesional del desarrollador de forma organizada, interactiva y responsive, permitiendo mostrar habilidades, proyectos y datos de contacto mediante una arquitectura escalable y reutilizable.
