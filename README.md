@@ -1,16 +1,62 @@
-# React + Vite
+La presente es pagina web desarrollada pra mostrar informacion profecional.Accesibilidad básica, 
+cuyo objetivo es desarrollar un **Portafolio Profesional Web** utilizando React y Vite, aplicando los conceptos fundamentales del framework como componentes, props, estado, renderizado dinámico, consumo de datos y formularios controlados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La aplicación presenta información profesional del desarrollador de forma organizada, interactiva y responsive, permitiendo mostrar habilidades, proyectos y datos de contacto mediante una arquitectura escalable y reutilizable.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Objetivos 
+ Construir una aplicación web utilizando React.
+- Implementar componentes reutilizables.
+- Consumir datos desde un archivo JSON mediante Fetch API.
+- Renderizar listas utilizando map().
+- Aplicar useState y useEffect.
+- Implementar filtros dinámicos.
+- Crear un formulario controlado con validaciones.
+- Mantener una estructura limpia y escalable.
 
-## React Compiler
+Estructura del Proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Estructura de carpetas
+portfolio-react/
+├── public/
+│   └── data/
+│       └── projects.json
+├── src/
+│   ├── assets/
+│   │   └── foto.png          <-- Coloca aquí tu foto de perfil
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── SkillList.jsx
+│   │   ├── ProjectCard.jsx
+│   │   ├── ProjectFilters.jsx
+│   │   ├── ContactForm.jsx
+│   │   └── Footer.jsx
+│   ├── data/
+│   │   └── skills.js
+│   ├── services/
+│   │   └── projects.service.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+|------index.html
+├── package.json
+|------package.json
+└── README.md
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instalación
+
+Clona este repositorio
+
+Entra en la carpeta del proyecto:
+cd nombre-de-tu-carpeta
+
+¿Cómo ejecutarlo en tu consola?
+Instala las dependencias iniciales del proyecto si acabas de crearlo:
+npm install
+
+Corre el servidor local de desarrollo en Vite:
+npm run dev
+
+
